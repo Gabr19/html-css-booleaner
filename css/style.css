@@ -1,14 +1,80 @@
-header{
-    height: 100px;
-    background-color: aqua;
+body{
+    width: 80%;
 }
 
-#pat{
-    width: 100%;
+header{
+    height: 100px;
+    background-color: rgba(77,161,255,255);
+    background-image: url(img/pattern.png);
+    background-size: 35%, 100%;
+    background-repeat: repeat;
+}
+
+#conteiner-logo{
     height: 100%;
 }
 
 #logo{
-    width: 100%;
-    height: 100%;
+    width: 15%;
+    height: 50%;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+
+#titolo{
+    font-size: xx-large;
+    
+}
+
+.sotto-titolo{
+    color: rgba(130,130,130,255);
+}
+
+#the-booleaner{
+    color: rgba(103,198,238,255);
+}
+
+#evidenziatore-uno{
+    background-color: yellow;
+}
+
+#top-table{
+    background-color: rgba(26,171,230,255);
+    color: white;
+}
+
+#prima-riga-tabella{
+    background-color: rgba(178,230,242,255);
+}
+
+#terza-riga-tabella{
+    background-color: rgba(178,230,242,255);
+}
+
+#evidenziatore-due{
+    background-color: yellow;
+}
+
+#titolo-footer{
+    color: rgba(130, 130, 130, 255);
+}
+
+#lorem-prima-img{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/monitor.jpg) ;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: x-large;
+}
+
+#lorem-seconda-img{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/graph.jpg) ;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: x-large;
 }
